@@ -1,0 +1,57 @@
+9--10
+-----------
+Basics of Cloud Computing 
+10 -10.15 -- general questions
+
+10.15 -11.00
+------------
+Cloud service providers
+AWS architecture
+----------------------------
+after break ask them to create AWS account using debit card if not already 30min 
+
+Create new account in AWS 
+AWS free tier usage
+what are the services in aws 
+How to create a server in AWS 
+Start with linux basic commands ppt
+-------------------------------------
+Start with linux basic commands ppt
+Tip:talk about os in AWS (No soundcard ,No GUI)
+----------------------------------------------
+Continue class for Linux
+-------------------------------------------------
+MFA login
+AWS Calculator
+EC2 Connection methods putty/mobaxterm
+Instance pricing and Instance types in aws console
+Start with linux basic commands ppt
+create Windows server
+what is AMI CREATE AMIs
+snapshots
+--------------------------------------------------------
+EC2
+
+Spot Requests---AWS spot instances are an excellent way to significantly reduce your EC2 on demand instance cost by up to 90% 
+
+Images:AMI
+yum install git -------------------explain term Y
+git version
+IMAGES--AMIS--LAUNCH
+launch instance--MYAMIS--- your customized AMIS
+AWS MARKET PLACE ---Online store for customized AMIS
+COMMUNITY AMIS --images published by other AMI users No support/not recommanded 
+de register to remove AMIS
+------------------------------------------------------------------
+
+What is a webserver ?
+
+#!/bin/bash
+sudo su
+yum update -y
+yum install httpd -y #apache
+systemctl start httpd
+systemctl enable httpd #server restart
+echo "Hello AWS boys i am from $(hostname -f)" > /var/www/html/index.html
+
+go to server and check cat /var/www/html/index.html
